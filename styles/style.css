@@ -1,0 +1,82 @@
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+
+.color1{
+  color:#8987A1;
+}
+
+.color2{
+  color:#E95A08;
+}
+
+.color3{
+  color:rgba(0, 0, 0, 0.5);
+}
+
+header{
+    margin:0 150px;
+}
+/* nav-bar related styles */
+
+.navbar{
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.nav-items{
+  list-style: none;
+  margin-right:48px;
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+.nav-item1{
+  font-weight: bold;
+  font-size: 16px;
+  color: #252432;
+}
+
+.nav-item3{
+  color:rgba(137, 135, 161, 0.6);
+}
+
+.shoping-cart-logo{
+  width:24px;
+  height: 24px;
+}
+.nav-item4{
+  color:black;
+}
+
+.banner{
+  max-width: 1140px;
+  margin-top: 226px;
+}
+.banner-title{
+  font-size:65px;
+  font-weight: bold; 
+}
+
+.banner-description{
+  font-size: 22px;
+  font-weight: 400;
+  max-width:570px;
+}
+
+.banner-img{
+  max-width:570px;
+  max-height:355px;
+  margin-top: 40px;
+}
