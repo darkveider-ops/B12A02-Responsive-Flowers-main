@@ -183,3 +183,119 @@ body{
    position: relative;
    display: inline-block;
 }
+
+.Flower-image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Badge{
+    position: absolute;
+    left: 350px;
+    top: -120px;
+    width: 300px;
+    animation: 3s linear 0s infinite badge-rotate;
+}
+
+.latest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.latest-inside{
+    text-align: center;
+}
+
+.latest-text{
+    text-align: center;
+    max-width: 788px;
+    padding: 0 0 50px 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+}
+
+.latest-img-container{
+    display: grid;
+    grid-template-columns: 380px 380px auto;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+    margin-right: 350px;
+}
+
+.left-img{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+
+}
+
+
+.img-text-bloom{
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 70px;
+}
+
+.img-text-bloom-underline{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 150px;
+    text-decoration: underline;
+}
+
+.img-text-ana{
+    position: absolute;
+    color: white;
+    top: 255px;
+    left: 75px;
+}
+
+.img-text-ana-underline{
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 140px;
+    text-decoration: underline;
+}
+
+.img-text-zabo{
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 570px;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.img-text-zabo-underline{
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 700px;
+    text-decoration: underline;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.latest-img{
+    border-radius: 5%;
+    filter: brightness(80%);
+    
+}
+
+.search{
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0 30px 0;
+}
