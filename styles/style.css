@@ -1,82 +1,185 @@
-.inter-font{
+/*@import "Tailwind"*/
+* {
+    
+
+}
+
+body{
+    margin: 0%;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 }
 
-/* shared styles */
-.display-flex{
+.header{
+
+}
+
+.nav-bar{
   display: flex;
-}
-
-.color1{
-  color:#8987A1;
-}
-
-.color2{
-  color:#E95A08;
-}
-
-.color3{
-  color:rgba(0, 0, 0, 0.5);
-}
-
-header{
-    margin:0 150px;
-}
-/* nav-bar related styles */
-
-.navbar{
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.logo{
 
 }
 
-.nav-items{
-  list-style: none;
-  margin-right:48px;
+.icon-container{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
 }
 
-.nav-link{
-  text-decoration: none;
+.icon{
+    text-decoration: none;
+    color: gray;
 }
 
-.nav-item1{
-  font-weight: bold;
-  font-size: 16px;
-  color: #252432;
-}
-
-.nav-item3{
-  color:rgba(137, 135, 161, 0.6);
-}
-
-.shoping-cart-logo{
-  width:24px;
-  height: 24px;
-}
-.nav-item4{
-  color:black;
+.home, .cart{
+   text-decoration: none;
+   font-weight: 500;
+   font-size: larger; 
+   color: black;
 }
 
 .banner{
-  max-width: 1140px;
-  margin-top: 226px;
-}
-.banner-title{
-  font-size:65px;
-  font-weight: bold; 
-}
-
-.banner-description{
-  font-size: 22px;
-  font-weight: 400;
-  max-width:570px;
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    max-height: 461px;
+    margin: 120px auto ;
 }
 
-.banner-img{
-  max-width:570px;
-  max-height:355px;
-  margin-top: 40px;
+.Banner-inside{
+    max-width: 570px;
+    padding-bottom: 0%;
+    padding-top: 120px;
+}
+
+.Title{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0px;
+
+}
+
+.Orange{
+    color: rgba(233, 90, 8, 1);
+    margin-bottom: 0px;
+    margin-top: 0%;
+
+}
+
+.banner-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.banner-image{
+
+}
+
+.main{
+    margin-top: 120px;
+}
+
+.market-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-container{
+    max-width: 1140px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 30px;
+
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-name{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.price{
+    margin-top: 0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sale-button{
+    display: flex;
+    margin-top: 0px;
+    background-color:rgba(233, 90, 8, 1);
+    color: white;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    border: none;
+}
+
+.sale-button:hover{
+    cursor: pointer;
+}
+
+.Flower-section{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 210px auto;
+    justify-content: center;
+}
+
+.flower-text{
+    margin: 0 60px;
+    max-width: 540px;
+    padding: 20px;
+}
+
+.Flower-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.flower-list{
+    padding: 20px;
+}
+
+.Flower-text{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.img{
+   position: relative;
+   display: inline-block;
 }

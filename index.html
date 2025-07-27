@@ -3,51 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Flower Market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Flower shop</title>
 </head>
-<body class="inter-font">
-    <header>
-        <nav class="navbar display-flex">
-            <img src="assets/logo.png" alt="">
-            <ul class="nav-links display-flex">
-                <li class="nav-items"><a class="nav-link" href=""><span class="nav-item1">Home</span></a></li>
-                <li class="nav-items"><a class="nav-link" href=""><span class="color1">Shop</span></a></li>
-                <li class="nav-items"><a class="nav-link" href=""><span class="nav-item3">About us</span></a></li>
-                <div class="display-flex">
-                <img src="assets/shopping-cart.png" alt="" class="shoping-cart-logo">   
-                <li class="nav-items"><a class="nav-link" href=""><span class="nav-item4">cart ($56)</span></a></li>
-                </div>
-            </ul>
-        </nav>
-        <nav class="banner display-flex">
-            <div>
-            <p class="banner-title">ALWAYS <span class="color2">FRESH<br>FLOWERS</span></p>
-            <p class="banner-description color3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-            </div>
-            <div>
-            <img src="assets/hero-flower.png" alt="" class="banner-img">
-            </div>
-        </nav>
+<body>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="logo">
+          <img class="logo" src="assets/logo.png" alt="Website Logo">
+        </div>
+        <ul class="icon-container">
+          <li class=""><a class="home" href="">Home</a></li>
+          <li class=""><a class="icon" href="">Shop</a></li>
+          <li class=""><a class="icon" href="">About Us</a></li>
+          
+          <li class="cart-icon"> <i class="fas fa-shopping-cart"></i> <a class="cart" href="">Cart($56)</a></li>
+         
+        </ul>
+      </nav>
+      <section class="banner">
+       <div class="Banner-inside">
+        <h1 class="Title noto-serif">ALWAYS <span class="Orange noto-serif">FRESH</span></h1>
+        <h1 class="Title Orange noto-serif">FLOWERS</h1>
+        <p class="banner-text inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+       </div>
+       <img class="banner-image" src="assets/hero-flower.png" alt="flowers">
+      </section>
     </header>
-
-    <main>
-        <section>
-            <div class="card-title">
-              <p class="section-title"><span class="color2">Our</span> Plants</p>
-              <p class="section-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            </div>
-        </section>
-        <section>
-
-        </section>
-    </main>
-
-    <footer>
-
-    </footer>
-</body>
-</html>
+    <main class="main">
+       <div class="market-section">
+          <h2 class="Title noto-serif">Our <span class="Orange noto-serif">Plants</span></h2>
+          <p class="banner-text inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+       </div>
+       <div class="card-container">
+        <div class="card1">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div>
+        <div class="card2">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div>
+        <div class="card3">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div>
+        <div class="card4">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div>
+        <div class="card5">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div>
+        <div class="card6">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div>
+        <div class="card7">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div>
+        <div class="card8">
+          <img class="item-pic" src="assets/sample-flower-image.png" alt="flower for sale">
+          <h4 class="item-name inter">Lily Blossom</h3>
+          <h3 class="price inter">20 USD</h3>
+          <button onclick="addToCart()" class="sale-button">ADD TO CART</button>
+        </div> 
+       </div>
+       <section class="Flower-section">
+        <div class="flower-text">
+            <h1 class="Flower-title noto-serif">Flower & Plants Lover</h1>
+            <ul class="Flower-list">
+              <li class="Flower-text inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+              <li class="Flower-text inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+              <li class="Flower-text inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+            </ul>
+        </div>
