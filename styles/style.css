@@ -414,3 +414,154 @@ body{
         margin: 0 10px;
         padding: 0%;
     }
+
+        .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        padding: 0%;
+        margin-bottom: 0px;
+    }
+
+    .banner-image{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .main{
+        max-width: 393px;
+        margin: 65px auto;
+    }
+   
+    .Title, .Orange{
+        margin-top: 0px;
+    }
+
+    .market-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 363px;
+
+        text-align: center;
+    }
+    
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 363px;
+    }
+
+    .item-pic{
+        width: 100%;
+    }
+    
+    .Badge{
+        display: none;
+    }
+
+    .Flower-section{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px;
+        align-items: flex-start;
+        text-align: left;
+        margin-top: 50px;
+    }    
+    
+    .flower-text{
+        text-align: left;
+        width: 100%;
+        margin: 0%;
+        padding-left: 10px;
+        padding-right: 0%;
+    }
+
+    .Flower-title{
+      font-size: 1.5rem;
+      white-space: nowrap;
+      margin: 0%;
+      text-align: left;
+    }
+    
+    .Flower-list{
+      padding: 0px;
+      margin: 10px 0px;
+      width: 100%;
+    }
+
+    .Flower-text{
+        font-size: 1rem;
+    }
+
+    .latest-text{
+        
+    }
+
+    .latest-img-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px;
+    }
+    
+    .img-text-zabo{
+        top: 480px;
+        left: 70px;
+        font-size: 1.5rem;
+    }
+
+    .img-text-zabo-underline{
+        top: 530px;
+        left: 140px;
+        font-size: 1rem;
+    }
+
+    .latest{
+        margin-top: 100px;
+    }
+
+    .latest-img{
+        width: 100%;
+    }
+
+    .search{
+        background-size: cover;
+        margin: 40px 0 40px 0;
+    }
+
+    .search-title{
+        font-size: 1.5rem;
+        margin: 70px 0 20px 0;
+    }
+
+    .input{
+        margin:0 0 50px 0 ;
+    }
+
+    .input input{
+        width: 200px;
+    }
+
+    .input button{
+        width: 100px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+
+    .middle-side{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px 0 20px 0;
+    }
+
+}  
+
+@keyframes badge-rotate{
+    100%{transform: rotateZ(360deg)}
+}
